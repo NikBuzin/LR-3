@@ -1,6 +1,6 @@
 ﻿namespace LR_2_
 {
-    partial class Form1
+    partial class LR3
     {
         /// <summary>
         /// Обязательная переменная конструктора.
@@ -28,10 +28,25 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // LR3
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(653, 643);
+            this.Name = "LR3";
+            this.Text = "LR3";
+            this.Load += new System.EventHandler(this.LR3_Load);
+            this.Paint += new System.Windows.Forms.PaintEventHandler(this.LR3_Paint);
+            this.MouseClick += new System.Windows.Forms.MouseEventHandler(this.LR3_MouseClick);
+            this.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.LR3_MouseDoubleClick);
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.LR3_MouseDown);
+            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.LR3_MouseMove);
+            this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.LR3_MouseUp);
+            this.Resize += new System.EventHandler(this.LR3_Resize);
+            this.ResumeLayout(false);
+
         }
 
         #endregion

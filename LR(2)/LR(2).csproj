@@ -46,17 +46,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Betta-spline.cs" />
+    <Compile Include="Bezie.cs" />
+    <Compile Include="DrawOXOY.cs" />
+    <Compile Include="ISplines.cs" />
+    <Compile Include="Line.cs" />
     <Compile Include="Logic.cs" />
-    <Compile Include="LR3.cs">
+    <Compile Include="LowLogic.cs" />
+    <Compile Include="LR6.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="LR3.Designer.cs">
-      <DependentUpon>LR3.cs</DependentUpon>
+    <Compile Include="LR6.Designer.cs">
+      <DependentUpon>LR6.cs</DependentUpon>
     </Compile>
+    <Compile Include="Points.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="LR3.resx">
-      <DependentUpon>LR3.cs</DependentUpon>
+    <Compile Include="SplineTuple.cs" />
+    <Compile Include="TransCoord.cs" />
+    <EmbeddedResource Include="LR6.resx">
+      <DependentUpon>LR6.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
